@@ -36,10 +36,10 @@ bool isMatch(string s, string p) {
 int main() {
     string s, p;
 
-    cout << "Enter string: ";
+    cout << "Enter the string: ";
     cin >> s;
 
-    cout << "Enter pattern: ";
+    cout << "Enter the pattern: ";
     cin >> p;
 
     if (isMatch(s, p))
