@@ -19,7 +19,7 @@ bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
 }
 
 int main() {
-    vector<string> word1 = {"ab", "c"};
+    vector<string> word1 = {"ab", "ca"};
     vector<string> word2 = {"a", "bc"};
 
     if (arrayStringsAreEqual(word1, word2))
